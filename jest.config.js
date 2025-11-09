@@ -23,6 +23,9 @@ const customJestConfig = {
     '!app/**/layout.{js,jsx,ts,tsx}',
     '!app/**/loading.{js,jsx,ts,tsx}',
     '!app/**/*.module.{css,scss}',
+    '!app/globals.css',
+    '!app/favicon.ico',
+    '!app/api/**/*.{js,jsx,ts,tsx}',
   ],
   coverageReporters: ['lcov', 'text', 'text-summary', 'json'],
   // Module file extensions for importing modules
